@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallex</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"
+        integrity="sha512-/6TZODGjYL7M8qb7P6SflJB/nTGE79ed1RfJk3dfm/Ib6JwCT4+tOfrrseEHhxkIhwG8jCl+io6eaiWLS/UX1w=="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="logo">Clean Juice</div>
+            <div class="menu-links">
+                <ul>
+                    <li>location</li>
+                    <li>our menu</li>
+                    <li>our story</li>
+                    <li>meet out team</li>
+                    <li>own a clean juice</li>
+                    <li>contact us</li>
+                </ul>
+            </div>
+            <div class="search"><i class="fa fa-search"></i></div>
+            <div class="account">my account</div>
+            <div class="cart"><i class="fa fa-shopping-cart"></i></div>
+        </div>
+        <div class="content">
+            <div class="tagline">Find your clean juice</div>
+            <div class="pages"><span>2</span>/21</div>
+            <div class="title">orange</div>
+            <div class="more"><a href="#">show all the juices</a></div>
+            <div class="desc">
+                <p>Your <span>healthy</span> life<br>starts here with us</p>
+                <p>A family owned company founded with the purpose of giving your family access to clean, organic products
+                    while you are on the go.</p>
+            </div>
+        </div>
+        <div class="juice">
+            <img src="./img/juice.png" alt="">
+        </div>
+        <div class="leaves">
+            <ul id="scene">
+                <li class="layer" data-depth=".1">
+                    <img src="./img/leaf01.png" alt="">
+                </li>
+                <li class="layer" data-depth="-.3">
+                    <img src="./img/leaf02.png" alt="">
+                </li>
+                <li class="layer" data-depth="-1">
+                    <img src="./img/leaf03.png" alt="">
+                </li>
+                <li class="layer" data-depth="-.1">
+                    <img src="./img/leaf04.png" alt="">
+                </li>
+                <li class="layer" data-depth="-.3">
+                    <img src="./img/leaf05.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div class="arrows">
+            <button class="prev"><i class="fa fa-chevron-left"></i></button>
+            <button class="next"><i class="fa fa-chevron-right"></i></button>
+        </div>
+    </div>
+</body>
+
+</html>
