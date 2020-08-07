@@ -1,11 +1,9 @@
-function init() {}
 let scene = document.querySelector("#scene");
 
 let parallax = new Parallax(scene, {});
 
 let tl = new gsap.timeline();
 
-function init() {
     tl.from(
         ".logo", {
             duration: 1,
@@ -77,5 +75,3 @@ function init() {
         },
         "<.5"
     );
-}
-document.addEventListener("DOMContentLoaded", init, false);
